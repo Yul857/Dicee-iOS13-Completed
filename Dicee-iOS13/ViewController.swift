@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
     
     @IBOutlet weak var diceImageView1: UIImageView!
     @IBOutlet weak var diceImageView2: UIImageView!
